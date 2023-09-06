@@ -884,121 +884,13 @@
   },
   "scds-color": {
     "name": "scds-color",
-    "semantics": {
-      "info": {
-        "name": "semantics/info",
-        "description": "",
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "error": {
-        "name": "semantics/error",
-        "description": "",
-        "value": "{scds-color.red.7}",
-        "type": "color"
-      },
-      "warning": {
-        "name": "semantics/warning",
-        "description": "",
-        "value": "{scds-color.orange.7}",
-        "type": "color"
-      },
-      "success": {
-        "name": "semantics/success",
-        "description": "",
-        "value": "{scds-color.light_sea_green.7}",
-        "type": "color"
-      }
-    },
-    "border": {
-      "input-hover": {
-        "name": "border/input-hover",
-        "description": "",
-        "value": "{scds-color.brand}",
-        "type": "color"
-      },
-      "input-default": {
-        "name": "border/input-default",
-        "description": "",
-        "value": "{scds-color.blue.2}",
-        "type": "color"
-      },
-      "line": {
-        "name": "border/line",
-        "description": "",
-        "value": "{scds-color.blue.2}",
-        "type": "color"
-      },
-      "input-active": {
-        "name": "border/input-active",
-        "description": "",
-        "value": "{scds-color.brand}",
-        "type": "color"
-      }
-    },
-    "text": {
-      "interactive": {
-        "name": "text/interactive",
-        "description": "",
-        "value": "{scds-color.brand}",
-        "type": "color"
-      },
-      "info": {
-        "name": "text/info",
-        "description": "",
-        "value": "{scds-color.coldgrey.6}",
-        "type": "color"
-      },
-      "title-sub": {
-        "name": "text/title-sub",
-        "description": "",
-        "value": "{scds-color.coldgrey.8}",
-        "type": "color"
-      },
-      "body": {
-        "name": "text/body",
-        "description": "",
-        "value": "{scds-color.coldgrey.10}",
-        "type": "color"
-      },
-      "interactive-disabled": {
-        "name": "text/interactive-disabled",
-        "description": "",
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "button-secondary-disabled": {
-        "name": "text/button-secondary-disabled",
+    "bg": {
+      "btn-danger-disabled": {
+        "name": "bg/btn-danger-disabled",
         "description": "",
         "value": "{scds-color.coldgrey.1}",
         "type": "color"
       },
-      "sidenav-active": {
-        "name": "text/sidenav-active",
-        "description": "",
-        "value": "{scds-color.brand}",
-        "type": "color"
-      },
-      "sidenav-hover": {
-        "name": "text/sidenav-hover",
-        "description": "",
-        "value": "{scds-color.brand}",
-        "type": "color"
-      },
-      "disabled": {
-        "name": "text/disabled",
-        "description": "",
-        "value": "#ffffff",
-        "type": "color"
-      }
-    },
-    "brand": {
-      "name": "brand",
-      "description": "",
-      "value": "{scds-color.blue.7}",
-      "type": "color"
-    },
-    "bg": {
       "btn-primary-default": {
         "name": "bg/btn-primary-default",
         "description": "",
@@ -1009,6 +901,12 @@
         "name": "bg/sidenav",
         "description": "",
         "value": "{scds-color.white}",
+        "type": "color"
+      },
+      "btn-primary-disabled": {
+        "name": "bg/btn-primary-disabled",
+        "description": "",
+        "value": "{scds-color.coldgrey.4}",
         "type": "color"
       },
       "btn-danger-default": {
@@ -1074,7 +972,7 @@
       "btn-icon-disabled": {
         "name": "bg/btn-icon-disabled",
         "description": "",
-        "value": "#ffffff",
+        "value": "{scds-color.coldgrey.4}",
         "type": "color"
       },
       "btn-icon-hover": {
@@ -1101,6 +999,114 @@
         "value": "{scds-color.coldgrey.6}",
         "type": "color"
       }
+    },
+    "semantics": {
+      "info": {
+        "name": "semantics/info",
+        "description": "",
+        "value": "{scds-color.brand}",
+        "type": "color"
+      },
+      "error": {
+        "name": "semantics/error",
+        "description": "",
+        "value": "{scds-color.red.7}",
+        "type": "color"
+      },
+      "warning": {
+        "name": "semantics/warning",
+        "description": "",
+        "value": "{scds-color.orange.7}",
+        "type": "color"
+      },
+      "success": {
+        "name": "semantics/success",
+        "description": "",
+        "value": "{scds-color.light_sea_green.7}",
+        "type": "color"
+      }
+    },
+    "border": {
+      "input-hover": {
+        "name": "border/input-hover",
+        "description": "",
+        "value": "{scds-color.brand}",
+        "type": "color"
+      },
+      "input-default": {
+        "name": "border/input-default",
+        "description": "",
+        "value": "{scds-color.coldgrey.2}",
+        "type": "color"
+      },
+      "line": {
+        "name": "border/line",
+        "description": "",
+        "value": "{scds-color.coldgrey.2}",
+        "type": "color"
+      },
+      "input-active": {
+        "name": "border/input-active",
+        "description": "",
+        "value": "{scds-color.brand}",
+        "type": "color"
+      }
+    },
+    "text": {
+      "interactive": {
+        "name": "text/interactive",
+        "description": "",
+        "value": "{scds-color.brand}",
+        "type": "color"
+      },
+      "info": {
+        "name": "text/info",
+        "description": "",
+        "value": "{scds-color.coldgrey.6}",
+        "type": "color"
+      },
+      "title-sub": {
+        "name": "text/title-sub",
+        "description": "",
+        "value": "{scds-color.coldgrey.8}",
+        "type": "color"
+      },
+      "body": {
+        "name": "text/body",
+        "description": "",
+        "value": "{scds-color.coldgrey.10}",
+        "type": "color"
+      },
+      "interactive-disabled": {
+        "name": "text/interactive-disabled",
+        "description": "",
+        "value": "{scds-color.coldgrey.4}",
+        "type": "color"
+      },
+      "btn-secondary-disabled": {
+        "name": "text/btn-secondary-disabled",
+        "description": "",
+        "value": "{scds-color.coldgrey.4}",
+        "type": "color"
+      },
+      "sidenav-active": {
+        "name": "text/sidenav-active",
+        "description": "",
+        "value": "{scds-color.brand}",
+        "type": "color"
+      },
+      "sidenav-hover": {
+        "name": "text/sidenav-hover",
+        "description": "",
+        "value": "{scds-color.brand}",
+        "type": "color"
+      }
+    },
+    "brand": {
+      "name": "brand",
+      "description": "",
+      "value": "{scds-color.blue.7}",
+      "type": "color"
     }
   }
 }
