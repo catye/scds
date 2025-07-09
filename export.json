@@ -975,43 +975,43 @@
         "primary-default": {
           "name": "bg/btn/primary-default",
           "description": "",
-          "value": "{scds-color.bg.interactive.primary-default}",
+          "value": "{bg.interactive.primary-default}",
           "type": "color"
         },
         "primary-hover": {
           "name": "bg/btn/primary-hover",
           "description": "",
-          "value": "{scds-color.bg.interactive.primary-hover}",
+          "value": "{bg.interactive.primary-hover}",
           "type": "color"
         },
         "primary-pressed": {
           "name": "bg/btn/primary-pressed",
           "description": "",
-          "value": "{scds-color.bg.interactive.primary-pressed}",
+          "value": "{bg.interactive.primary-pressed}",
           "type": "color"
         },
         "primary-disabled": {
           "name": "bg/btn/primary-disabled",
           "description": "",
-          "value": "{scds-color.bg.interactive.primary-disabled}",
+          "value": "{bg.interactive.primary-disabled}",
           "type": "color"
         },
         "secondary-default": {
           "name": "bg/btn/secondary-default",
           "description": "",
-          "value": "{scds-color.bg.module.default}",
+          "value": "{bg.module.default}",
           "type": "color"
         },
         "secondary-disabled": {
           "name": "bg/btn/secondary-disabled",
           "description": "",
-          "value": "{scds-color.bg.module.disabled}",
+          "value": "{bg.module.disabled}",
           "type": "color"
         },
         "danger-default": {
           "name": "bg/btn/danger-default",
           "description": "",
-          "value": "{scds-color.bg.module.default}",
+          "value": "{bg.module.default}",
           "type": "color"
         },
         "danger-hover": {
@@ -1029,13 +1029,13 @@
         "danger-disabled": {
           "name": "bg/btn/danger-disabled",
           "description": "",
-          "value": "{scds-color.bg.module.disabled}",
+          "value": "{bg.module.disabled}",
           "type": "color"
         },
         "disabled": {
           "name": "bg/btn/disabled",
           "description": "",
-          "value": "{scds-color.bg.disabled}",
+          "value": "{bg.disabled}",
           "type": "color"
         },
         "icon-default": {
@@ -1047,7 +1047,7 @@
         "icon-hover": {
           "name": "bg/btn/icon-hover",
           "description": "",
-          "value": "{scds-color.brand}",
+          "value": "{brand}",
           "type": "color"
         },
         "icon-disabled": {
@@ -1079,7 +1079,7 @@
         "interactive-hover": {
           "name": "bg/icon/interactive-hover",
           "description": "",
-          "value": "{scds-color.brand}",
+          "value": "{brand}",
           "type": "color"
         },
         "interactive-disabled": {
@@ -1141,7 +1141,7 @@
         "offline": {
           "name": "bg/tag/offline",
           "description": "",
-          "value": "{scds-color.bg.disabled}",
+          "value": "{bg.disabled}",
           "type": "color"
         },
         "selectable": {
@@ -1161,7 +1161,7 @@
         "default": {
           "name": "bg/module/default",
           "description": "",
-          "value": "{scds-color.bg.bg}",
+          "value": "{bg.bg}",
           "type": "color"
         },
         "hover": {
@@ -1179,7 +1179,7 @@
         "disabled": {
           "name": "bg/module/disabled",
           "description": "",
-          "value": "{scds-color.bg.disabled}",
+          "value": "{bg.disabled}",
           "type": "color"
         }
       },
@@ -1187,7 +1187,7 @@
         "primary-default": {
           "name": "bg/interactive/primary-default",
           "description": "",
-          "value": "{scds-color.brand}",
+          "value": "{brand}",
           "type": "color"
         },
         "primary-hover": {
@@ -1245,19 +1245,19 @@
         "default": {
           "name": "text/interactive/default",
           "description": "",
-          "value": "{scds-color.bg.interactive.primary-default}",
+          "value": "{bg.interactive.primary-default}",
           "type": "color"
         },
         "hover": {
           "name": "text/interactive/hover",
           "description": "",
-          "value": "{scds-color.bg.interactive.primary-hover}",
+          "value": "{bg.interactive.primary-hover}",
           "type": "color"
         },
         "pressed": {
           "name": "text/interactive/pressed",
           "description": "",
-          "value": "{scds-color.bg.interactive.primary-pressed}",
+          "value": "{bg.interactive.primary-pressed}",
           "type": "color"
         },
         "disabled": {
@@ -1270,13 +1270,13 @@
       "sidenav-hover": {
         "name": "text/sidenav-hover",
         "description": "",
-        "value": "{scds-color.brand}",
+        "value": "{brand}",
         "type": "color"
       },
       "sidenav-active": {
         "name": "text/sidenav-active",
         "description": "",
-        "value": "{scds-color.brand}",
+        "value": "{brand}",
         "type": "color"
       },
       "btn-secondary-disabled": {
@@ -1288,7 +1288,7 @@
       "danger-default": {
         "name": "text/danger-default",
         "description": "",
-        "value": "{scds-color.semantics.error}",
+        "value": "{semantics.error}",
         "type": "color"
       },
       "danger-hover": {
@@ -1320,19 +1320,19 @@
       "input-hover": {
         "name": "border/input-hover",
         "description": "",
-        "value": "{scds-color.brand}",
+        "value": "{brand}",
         "type": "color"
       },
       "input-active": {
         "name": "border/input-active",
         "description": "",
-        "value": "{scds-color.bg.interactive.primary-pressed}",
+        "value": "{bg.interactive.primary-pressed}",
         "type": "color"
       },
       "input-disabled": {
         "name": "border/input-disabled",
         "description": "",
-        "value": "{scds-color.border.input-default}",
+        "value": "{border.input-default}",
         "type": "color"
       },
       "line": {
@@ -1364,7 +1364,7 @@
       "info": {
         "name": "semantics/info",
         "description": "",
-        "value": "{scds-color.brand}",
+        "value": "{brand}",
         "type": "color"
       }
     }
